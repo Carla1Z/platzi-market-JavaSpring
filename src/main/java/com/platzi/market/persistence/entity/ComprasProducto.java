@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "compras_producto")
+@Table(name = "compras_productos")
 public class ComprasProducto {
     @EmbeddedId
     private ComprasProductoPK id;
